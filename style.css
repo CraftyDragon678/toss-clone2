@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/*  */
+
+.title {
+  font-size: 2rem;
+  color: #3083f6;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-size: 4.125rem;
+  font-weight: bolder;
+}
+
+/*  */
+
+header {
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 27, 55, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.logo {
+  /* 1rem = 16px */
+  width: 6.375rem;
+}
+
+.header nav {
+  display: flex;
+  column-gap: 4rem;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background: linear;
+}
+
+.header ul li {
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
+.header ul li:hover {
+  background-color: #0220470d;
+}
+
+.header ul:last-of-type {
+  column-gap: 0;
+}
+
+/* main */
+#main video {
+  width: 100vw;
+}
+
+#main .gradient {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, white 0%, transparent 100%);
+}
+
+#main .wrapper {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#main .wrapper h1 {
+  font-size: 5.3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#main .wrapper button {
+  background: #3182f6;
+  border-radius: 9999px;
+  border: none;
+  color: white;
+  padding: 1.2rem 2rem;
+  font-size: 2rem;
+}
+
+#description {
+  height: 37.5rem;
+  background: #f9fafb;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#services {
+  max-width: 1140px;
+  margin: auto;
+  padding: 21rem 0;
+}
+
+#services .subtitle {
+  margin-bottom: 8.6rem;
+}
+
+#services .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 8.625rem;
+}
+
+#services .icon {
+  width: 10rem;
+  height: 10rem;
+  background: #fee59a;
+  margin-bottom: 2.6rem;
+  border-radius: 2rem;
+}
+#services .service {
+  font-size: 1.6rem;
+  color: #333d4b;
+  margin-bottom: 1rem;
+}
+#services .service-description {
+  font-size: 1.5rem;
+  color: #8b95a1;
+}
