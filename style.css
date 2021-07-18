@@ -16,6 +16,17 @@ html {
 .subtitle {
   font-size: 4.125rem;
   font-weight: bolder;
+  line-height: 1.5;
+}
+
+img.iphone {
+  margin: -7rem -8.75rem;
+}
+
+.description {
+  color: rgb(51, 61, 75);
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 /*  */
@@ -117,6 +128,34 @@ header {
   font-weight: bolder;
   text-align: center;
   line-height: 1.5;
+}
+
+#home {
+  max-width: 1140px;
+  margin: auto;
+  padding: 21rem 0;
+  height: 1300px;
+}
+
+#home img:first-of-type {
+  position: absolute;
+  right: 10rem;
+  margin-top: -25rem;
+  width: 50%;
+  background: center / 58% no-repeat url(./assets/section1_1_home_01.png);
+}
+
+#home img:last-of-type {
+  position: absolute;
+  margin-top: 5rem;
+  width: 50%;
+  background: center / 58% no-repeat url(./assets/section1_1_home_02.png);
+}
+
+#home .description {
+  position: absolute;
+  right: 13rem;
+  margin-top: 60rem;
 }
 
 #services {
