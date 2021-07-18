@@ -151,3 +151,70 @@ header {
   font-size: 1.5rem;
   color: #8b95a1;
 }
+
+footer {
+  background: #1a1f27;
+  padding: 3rem 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-footer {
+  display: flex;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+}
+
+.upper-footer > div:not(:last-of-type) {
+  width: 12rem;
+}
+
+.upper-footer h3 {
+  color: #b0b8c1;
+  margin-bottom: 0.5rem;
+}
+
+.upper-footer li {
+  color: #6b7684;
+  line-height: 1.8;
+}
+
+.company {
+  margin-bottom: 3rem;
+}
+
+.company h3 {
+  color: #b0b8c1;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.company li {
+  color: #8b95a1;
+  line-height: 1.2;
+}
+
+.terms {
+  margin-bottom: 1rem;
+}
+
+.terms ul {
+  display: flex;
+  color: #6b7684;
+}
+
+.terms ul li {
+  padding-right: 1.875rem;
+}
+
+.sns {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.sns div {
+  width: 2rem;
+  height: 2rem;
+  background-color: #424954;
+  border-radius: 100%;
+}
